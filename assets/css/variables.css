@@ -1,0 +1,46 @@
+/* ===================================================
+   DAMAKESMAS - CSS Custom Properties (Design Tokens)
+   =================================================== */
+:root {
+  --color-primary: #1A4A3C;
+  --color-primary-dark: #0F3028;
+  --color-primary-mid: #2D6B52;
+  --color-primary-light: #E8F4F0;
+  --color-accent-green: #4CAF7D;
+  --color-accent-teal: #46C98A;
+  --color-active: #16A34A;
+  --color-active-bg: #DCFCE7;
+  --color-standby: #D97706;
+  --color-standby-bg: #FEF3C7;
+  --color-white: #FFFFFF;
+  --color-bg: #F5F7F6;
+  --color-border: #E5E7EB;
+  --color-text-primary: #111827;
+  --color-text-secondary: #374151;
+  --color-text-muted: #6B7280;
+  --color-text-faint: #9CA3AF;
+  --color-text-inverse: #FFFFFF;
+  --color-emergency-bg: #FEE2E2;
+  --color-emergency-icon: #EF4444;
+  --color-homecare-bg: #D1FAE5;
+  --color-homecare-icon: #059669;
+  --color-odgj-bg: #FEF9C3;
+  --color-odgj-icon: #D97706;
+  --color-other-bg: #EDE9FE;
+  --color-other-icon: #7C3AED;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-card-hover: 0 6px 20px rgba(0,0,0,0.10);
+  --shadow-nav: 0 2px 12px rgba(0,0,0,0.08);
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --container-max: 1200px;
+  --navbar-height: 64px;
+}

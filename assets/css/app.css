@@ -1,0 +1,16 @@
+/* ===================================================
+   DAMAKESMAS - Main CSS Entry Point
+   Import order matters!
+   =================================================== */
+@import 'variables.css';
+@import 'typography.css';
+@import 'components.css';
+@import 'utilities.css';
+
+/* Reset / Base */
+html { scroll-behavior: smooth; }
+body { margin: 0; padding: 0; background: var(--color-bg); }
+img { max-width: 100%; height: auto; }
+a { color: inherit; }
+button { font-family: var(--font-body); }
+select { appearance: none; -webkit-appearance: none; }
